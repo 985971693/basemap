@@ -69,7 +69,7 @@ if GEOS_dir is None:
 Can't find geos library in standard locations ('%s').
 Please install the corresponding packages using your
 systems software management system (e.g. for Debian Linux do:
-'apt-get install libgeos-3.3.3 libgeos-c1 libgeos-dev' and/or
+'apt-get install libgeos-3.6.1 libgeos-c1 libgeos-dev' and/or
 set the environment variable GEOS_DIR to point to the location
 where geos is installed (for example, if geos_c.h
 is in /usr/local/include, and libgeos_c is in /usr/local/lib,

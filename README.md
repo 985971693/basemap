@@ -16,7 +16,7 @@ using matplotlib.
 * [pyshp](https://github.com/GeospatialPython/pyshp)
 
 * The GEOS (Geometry Engine - Open Source) library (version 3.1.1 or higher).
-Source code is included in the geos-3.3.3 directory.
+Source code is included in the geos-3.6.1 directory.
 
 * On linux, if your python was installed via a package management system, make
 sure the corresponding "python-dev" package is also installed.  Otherwise, you
@@ -35,7 +35,7 @@ PIL should work on Python 2.x.  Pillow is a maintained fork of PIL.
 ##Copyright
 
 source code for the GEOS library is
-included in the 'geos-3.3.3' directory under the terms given in
+included in the 'geos-3.6.1' directory under the terms given in
 LICENSE_geos.
 
 the land-sea mask, coastline, lake, river and political boundary data are extracted
@@ -83,7 +83,7 @@ Then go to step (3).  If you don't have it, you can build it from
 the source code included with basemap by following these steps:
 
 	```
-	 > cd geos-3.3.3
+	 > cd geos-3.6.1
 	 > export GEOS_DIR=<where you want the libs and headers to go>
 	   A reasonable choice on a Unix-like system is /usr/local, or
 	   if you don't have permission to write there, your home directory.

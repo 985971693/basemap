@@ -118,7 +118,7 @@ install:
         # Download and Compile libgeos
         if [[ $BUILD_LIBGEOS == 'internal' ]]; then
           echo 'Building internal libgeos'
-          cd geos-3.3.3
+          cd geos-3.6.1
         # Does this string contain a "git" substring?
         elif [[ $BUILD_LIBGEOS == *"git"* ]]; then
           echo 'Using git to download libgeos development'

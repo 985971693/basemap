@@ -106,5 +106,5 @@ include doc/README.txt
 include doc/make.py
 include doc/conf.py
 include doc/index.rst
-recursive-include geos-3.3.3 *
+recursive-include geos-3.6.1 *
 recursive-include lib/mpl_toolkits/basemap/data *
